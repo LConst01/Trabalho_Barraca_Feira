@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Cascadia Code";
+}
+
+.main-app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+.main-app .navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 7vh;
+  background-color: #ffc300;
+}
+.main-app .navbar .name-and-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1.5rem;
+}
+.main-app .navbar .name-and-icon .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c19400;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}
+.main-app .navbar .name-and-icon .icon img {
+  width: 2rem;
+  height: 2rem;
+}
+.main-app .navbar .name-and-icon .name {
+  margin-left: 1.5rem;
+  font-size: 2rem;
+  color: #fff;
+}
+.main-app .navbar .button-and-profile {
+  display: flex;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+.main-app .navbar .button-and-profile .button-main button {
+  background-color: gray;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  color: white;
+  font-size: 1rem;
+  margin-right: 1.5rem;
+  border-radius: 10px;
+}
+.main-app .navbar .button-and-profile .profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.main-app .navbar .button-and-profile .profile img {
+  width: 2rem;
+  height: 2rem;
+  padding: 0.5rem;
+  background-color: gray;
+  border-radius: 35px;
+}
+.main-app .content-app {
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+  background-color: gray;
+  gap: 25px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 55rem;
+}
+.main-app .content-app .content-left {
+  background: #111;
+  display: flex;
+  padding: 25px;
+  border-radius: 10px;
+  width: 75%;
+  right: 20vh;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.main-app .content-app .content-left .principal-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+.main-app .content-app .content-left .display {
+  display: flex;
+  align-items: center;
+  padding: 18px;
+  border-radius: 15px;
+  background-color: gray;
+  width: 100%;
+  height: 15vh;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.main-app .content-app .content-left .display p {
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+.main-app .content-app .content-left .display img {
+  width: 2rem;
+  height: 2rem;
+}
+.main-app .content-app .content-left .itens {
+  font-size: 4rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+  gap: 20px;
+}
+.main-app .content-app .content-left .itens .itens-box {
+  background-color: gray;
+  width: 100%;
+  height: 10vh;
+  border-radius: 15px;
+}
+.main-app .content-app .pay-forms {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  justify-content: space-around;
+  width: 100%;
+}
+.main-app .content-app .pay-forms .pay-form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 100px;
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-app .content-app .pay-forms .pay-form img {
+  width: 7rem;
+  height: 7rem;
+}
+.main-app .content-app .pay-forms .card-credit {
+  background-color: green;
+  color: white;
+}
+.main-app .content-app .pay-forms .pix {
+  background-color: blue;
+  color: white;
+}
+.main-app .content-app .pay-forms .money {
+  background-color: #ffc300;
+  color: white;
+}
+
+.content-right {
+  justify-content: space-evenly;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  right: 20vh;
+  background-color: black;
+  align-items: center;
+  border-radius: 10px;
+}
+.content-right .content-right-box {
+  background-color: aquamarine;
+  width: 95%;
+  height: 5rem;
+  right: 20rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 1.6rem;
+  color: white;
+}
+.content-right .content-right-box img {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 1.5rem;
+}
+.content-right .content-right-box p {
+  margin-left: 1.5rem;
+}
+.content-right .sale {
+  background-color: #38b000;
+}
+.content-right .control {
+  background-color: #004e89;
+}
+.content-right .registration {
+  background-color: #5a189a;
+}
+.content-right .report {
+  background-color: #ff4e00;
+}
+.content-right .movimentation {
+  background-color: #ffc300;
+}
+.content-right .configuration {
+  background-color: #a5a5a5;
+}/*# sourceMappingURL=style.css.map */
